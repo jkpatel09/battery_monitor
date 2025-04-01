@@ -60,7 +60,7 @@ def show_persistent_notification():
             logging.debug("Showing persistent notification.")
             notification.notify(
                 title="Battery Warning",
-                message="Battery is almost full. Please unplug the charger!",
+                message="Hey Jenish! Battery is almost full. Please unplug the charger!",
                 app_name="Battery Monitor",
                 timeout=10  # Notification duration in seconds
             )
